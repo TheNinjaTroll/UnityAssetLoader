@@ -9,7 +9,7 @@ https://learn.unity.com/tutorial/introduction-to-asset-bundles#
 
 How to Use:
 
-1: Add files to existing Unity project. (structure .txt can be removed)
+1: Add files to existing Unity project. (JustForeStructure.txt files can be removed)
 
 2: Create a empty gameobject in the scene and drag the Loader scripts to that objects inspector. AssetBundleLoader.cs is needed for asset bundles and ModelLoader.cs is needed for .gltf / .gnb models.
 
