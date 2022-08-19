@@ -20,7 +20,7 @@ public class ModelLoader : MonoBehaviour
         };
     }
 
-    public void DownloadFile(string url) //Called from a button with a url
+    public void DownloadFile(string url) //Called with a url.
     {
         string path = GetFilePath(url);
         if (File.Exists(path))  //Check if we have the file locally already

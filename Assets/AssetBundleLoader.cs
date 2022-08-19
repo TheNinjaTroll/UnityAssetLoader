@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class AssetBundleLoader : MonoBehaviour
 {
 
-    public void LoadBundle (string url) //called from a button with a url.
+    public void LoadBundle (string url) //called with the url.
     {
         StartCoroutine(GetBundle(url));
     }
